@@ -1,77 +1,77 @@
 group;date;value
-Drug addiction;2015-01;21
-Drug addiction;2015-04;18
-Drug addiction;2015-07;20
-Drug addiction;2015-10;20
-Drug addiction;2016-01;16
-Drug addiction;2016-02;20
-Drug addiction;2016-03;21
-Drug addiction;2016-04;18
-Drug addiction;2016-05;21
-Drug addiction;2016-06;21
-Drug addiction;2016-07;20
-Drug addiction;2016-08;24
-Drug addiction;2016-09;22
-Drug addiction;2016-10;20
-Drug addiction;2016-11;23
-Drug addiction;2016-12;23
-Drug addiction;2017-01;20
-Drug addiction;2017-02;22
-Drug addiction;2017-03;20
-Unemployment;2015-01;21
-Unemployment;2015-04;23
-Unemployment;2015-07;19
-Unemployment;2015-10;20
-Unemployment;2016-01;22
-Unemployment;2016-02;20
-Unemployment;2016-03;21
-Unemployment;2016-04;21
-Unemployment;2016-05;17
-Unemployment;2016-06;15
-Unemployment;2016-07;19
-Unemployment;2016-08;18
-Unemployment;2016-09;15
-Unemployment;2016-10;18
-Unemployment;2016-11;18
-Unemployment;2016-12;17
-Unemployment;2017-01;16
-Unemployment;2017-02;18
-Unemployment;2017-03;18
-Housing dissatisfaction;2015-01;11
-Housing dissatisfaction;2015-04;13
-Housing dissatisfaction;2015-07;15
-Housing dissatisfaction;2015-10;14
-Housing dissatisfaction;2016-01;17
-Housing dissatisfaction;2016-02;16
-Housing dissatisfaction;2016-03;17
-Housing dissatisfaction;2016-04;16
-Housing dissatisfaction;2016-05;15
-Housing dissatisfaction;2016-06;16
-Housing dissatisfaction;2016-07;15
-Housing dissatisfaction;2016-08;17
-Housing dissatisfaction;2016-09;16
-Housing dissatisfaction;2016-10;18
-Housing dissatisfaction;2016-11;18
-Housing dissatisfaction;2016-12;17
-Housing dissatisfaction;2017-01;18
-Housing dissatisfaction;2017-02;15
-Housing dissatisfaction;2017-03;17
-Corruption;2015-01;9
-Corruption;2015-04;10
-Corruption;2015-07;10
-Corruption;2015-10;11
-Corruption;2016-01;9
-Corruption;2016-02;11
-Corruption;2016-03;12
-Corruption;2016-04;12
-Corruption;2016-05;11
-Corruption;2016-06;12
-Corruption;2016-07;13
-Corruption;2016-08;13
-Corruption;2016-09;14
-Corruption;2016-10;11
-Corruption;2016-11;11
-Corruption;2016-12;15
-Corruption;2017-01;11
-Corruption;2017-02;11
-Corruption;2017-03;11
+1;2015-01;21
+1;2015-04;18
+1;2015-07;20
+1;2015-10;20
+1;2016-01;16
+1;2016-02;20
+1;2016-03;21
+1;2016-04;18
+1;2016-05;21
+1;2016-06;21
+1;2016-07;20
+1;2016-08;24
+1;2016-09;22
+1;2016-10;20
+1;2016-11;23
+1;2016-12;23
+1;2017-01;20
+1;2017-02;22
+1;2017-03;20
+2;2015-01;21
+2;2015-04;23
+2;2015-07;19
+2;2015-10;20
+2;2016-01;22
+2;2016-02;20
+2;2016-03;21
+2;2016-04;21
+2;2016-05;17
+2;2016-06;15
+2;2016-07;19
+2;2016-08;18
+2;2016-09;15
+2;2016-10;18
+2;2016-11;18
+2;2016-12;17
+2;2017-01;16
+2;2017-02;18
+2;2017-03;18
+3;2015-01;11
+3;2015-04;13
+3;2015-07;15
+3;2015-10;14
+3;2016-01;17
+3;2016-02;16
+3;2016-03;17
+3;2016-04;16
+3;2016-05;15
+3;2016-06;16
+3;2016-07;15
+3;2016-08;17
+3;2016-09;16
+3;2016-10;18
+3;2016-11;18
+3;2016-12;17
+3;2017-01;18
+3;2017-02;15
+3;2017-03;17
+4;2015-01;9
+4;2015-04;10
+4;2015-07;10
+4;2015-10;11
+4;2016-01;9
+4;2016-02;11
+4;2016-03;12
+4;2016-04;12
+4;2016-05;11
+4;2016-06;12
+4;2016-07;13
+4;2016-08;13
+4;2016-09;14
+4;2016-10;11
+4;2016-11;11
+4;2016-12;15
+4;2017-01;11
+4;2017-02;11
+4;2017-03;11
