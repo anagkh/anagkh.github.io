@@ -1,77 +1,419 @@
 group;date;value
-1;2015-01;21
-1;2015-04;18
-1;2015-07;20
-1;2015-10;20
-1;2016-01;16
-1;2016-02;20
-1;2016-03;21
-1;2016-04;18
-1;2016-05;21
-1;2016-06;21
-1;2016-07;20
-1;2016-08;24
-1;2016-09;22
-1;2016-10;20
-1;2016-11;23
-1;2016-12;23
-1;2017-01;20
-1;2017-02;22
-1;2017-03;20
-2;2015-01;21
-2;2015-04;23
-2;2015-07;19
-2;2015-10;20
-2;2016-01;22
-2;2016-02;20
-2;2016-03;21
-2;2016-04;21
-2;2016-05;17
-2;2016-06;15
-2;2016-07;19
-2;2016-08;18
-2;2016-09;15
-2;2016-10;18
-2;2016-11;18
-2;2016-12;17
-2;2017-01;16
-2;2017-02;18
-2;2017-03;18
-3;2015-01;11
-3;2015-04;13
-3;2015-07;15
-3;2015-10;14
-3;2016-01;17
-3;2016-02;16
-3;2016-03;17
-3;2016-04;16
-3;2016-05;15
-3;2016-06;16
-3;2016-07;15
-3;2016-08;17
-3;2016-09;16
-3;2016-10;18
-3;2016-11;18
-3;2016-12;17
-3;2017-01;18
-3;2017-02;15
-3;2017-03;17
-4;2015-01;9
-4;2015-04;10
-4;2015-07;10
-4;2015-10;11
-4;2016-01;9
-4;2016-02;11
-4;2016-03;12
-4;2016-04;12
-4;2016-05;11
-4;2016-06;12
-4;2016-07;13
-4;2016-08;13
-4;2016-09;14
-4;2016-10;11
-4;2016-11;11
-4;2016-12;15
-4;2017-01;11
-4;2017-02;11
-4;2017-03;11
+Drug addiction;2015-01;21
+Drug addiction;2015-04;18
+Drug addiction;2015-07;20
+Drug addiction;2015-10;20
+Drug addiction;2016-01;16
+Drug addiction;2016-02;20
+Drug addiction;2016-03;21
+Drug addiction;2016-04;18
+Drug addiction;2016-05;21
+Drug addiction;2016-06;21
+Drug addiction;2016-07;20
+Drug addiction;2016-08;24
+Drug addiction;2016-09;22
+Drug addiction;2016-10;20
+Drug addiction;2016-11;23
+Drug addiction;2016-12;23
+Drug addiction;2017-01;20
+Drug addiction;2017-02;22
+Drug addiction;2017-03;20
+Unemployment;2015-01;21
+Unemployment;2015-04;23
+Unemployment;2015-07;19
+Unemployment;2015-10;20
+Unemployment;2016-01;22
+Unemployment;2016-02;20
+Unemployment;2016-03;21
+Unemployment;2016-04;21
+Unemployment;2016-05;17
+Unemployment;2016-06;15
+Unemployment;2016-07;19
+Unemployment;2016-08;18
+Unemployment;2016-09;15
+Unemployment;2016-10;18
+Unemployment;2016-11;18
+Unemployment;2016-12;17
+Unemployment;2017-01;16
+Unemployment;2017-02;18
+Unemployment;2017-03;18
+Housing dissatisfaction;2015-01;11
+Housing dissatisfaction;2015-04;13
+Housing dissatisfaction;2015-07;15
+Housing dissatisfaction;2015-10;14
+Housing dissatisfaction;2016-01;17
+Housing dissatisfaction;2016-02;16
+Housing dissatisfaction;2016-03;17
+Housing dissatisfaction;2016-04;16
+Housing dissatisfaction;2016-05;15
+Housing dissatisfaction;2016-06;16
+Housing dissatisfaction;2016-07;15
+Housing dissatisfaction;2016-08;17
+Housing dissatisfaction;2016-09;16
+Housing dissatisfaction;2016-10;18
+Housing dissatisfaction;2016-11;18
+Housing dissatisfaction;2016-12;17
+Housing dissatisfaction;2017-01;18
+Housing dissatisfaction;2017-02;15
+Housing dissatisfaction;2017-03;17
+Corruption in law authorities;2015-01;9
+Corruption in law authorities;2015-04;10
+Corruption in law authorities;2015-07;10
+Corruption in law authorities;2015-10;11
+Corruption in law authorities;2016-01;9
+Corruption in law authorities;2016-02;11
+Corruption in law authorities;2016-03;12
+Corruption in law authorities;2016-04;12
+Corruption in law authorities;2016-05;11
+Corruption in law authorities;2016-06;12
+Corruption in law authorities;2016-07;13
+Corruption in law authorities;2016-08;13
+Corruption in law authorities;2016-09;14
+Corruption in law authorities;2016-10;11
+Corruption in law authorities;2016-11;11
+Corruption in law authorities;2016-12;15
+Corruption in law authorities;2017-01;11
+Corruption in law authorities;2017-02;11
+Corruption in law authorities;2017-03;11
+Education dissatisfaction;2015-01;9
+Education dissatisfaction;2015-04;9
+Education dissatisfaction;2015-07;9
+Education dissatisfaction;2015-10;9
+Education dissatisfaction;2016-01;11
+Education dissatisfaction;2016-02;10
+Education dissatisfaction;2016-03;9
+Education dissatisfaction;2016-04;11
+Education dissatisfaction;2016-05;10
+Education dissatisfaction;2016-06;9
+Education dissatisfaction;2016-07;10
+Education dissatisfaction;2016-08;10
+Education dissatisfaction;2016-09;11
+Education dissatisfaction;2016-10;11
+Education dissatisfaction;2016-11;11
+Education dissatisfaction;2016-12;9
+Education dissatisfaction;2017-01;11
+Education dissatisfaction;2017-02;8
+Education dissatisfaction;2017-03;10
+Agriculture dissatisfaction;2015-01;15
+Agriculture dissatisfaction;2015-04;14
+Agriculture dissatisfaction;2015-07;11
+Agriculture dissatisfaction;2015-10;11
+Agriculture dissatisfaction;2016-01;11
+Agriculture dissatisfaction;2016-02;11
+Agriculture dissatisfaction;2016-03;11
+Agriculture dissatisfaction;2016-04;11
+Agriculture dissatisfaction;2016-05;11
+Agriculture dissatisfaction;2016-06;10
+Agriculture dissatisfaction;2016-07;12
+Agriculture dissatisfaction;2016-08;10
+Agriculture dissatisfaction;2016-09;11
+Agriculture dissatisfaction;2016-10;9
+Agriculture dissatisfaction;2016-11;9
+Agriculture dissatisfaction;2016-12;8
+Agriculture dissatisfaction;2017-01;10
+Agriculture dissatisfaction;2017-02;10
+Agriculture dissatisfaction;2017-03;9
+Ecology dissatisfaction;2015-01;7
+Ecology dissatisfaction;2015-04;6
+Ecology dissatisfaction;2015-07;7
+Ecology dissatisfaction;2015-10;6
+Ecology dissatisfaction;2016-01;6
+Ecology dissatisfaction;2016-02;7
+Ecology dissatisfaction;2016-03;6
+Ecology dissatisfaction;2016-04;8
+Ecology dissatisfaction;2016-05;6
+Ecology dissatisfaction;2016-06;6
+Ecology dissatisfaction;2016-07;6
+Ecology dissatisfaction;2016-08;6
+Ecology dissatisfaction;2016-09;6
+Ecology dissatisfaction;2016-10;7
+Ecology dissatisfaction;2016-11;6
+Ecology dissatisfaction;2016-12;7
+Ecology dissatisfaction;2017-01;7
+Ecology dissatisfaction;2017-02;6
+Ecology dissatisfaction;2017-03;8
+Crime;2015-01;8
+Crime;2015-04;7
+Crime;2015-07;8
+Crime;2015-10;8
+Crime;2016-01;6
+Crime;2016-02;8
+Crime;2016-03;8
+Crime;2016-04;9
+Crime;2016-05;8
+Crime;2016-06;8
+Crime;2016-07;8
+Crime;2016-08;8
+Crime;2016-09;8
+Crime;2016-10;7
+Crime;2016-11;7
+Crime;2016-12;7
+Crime;2017-01;6
+Crime;2017-02;7
+Crime;2017-03;7
+Industries dissatisfaction;2015-01;8
+Industries dissatisfaction;2015-04;8
+Industries dissatisfaction;2015-07;8
+Industries dissatisfaction;2015-10;7
+Industries dissatisfaction;2016-01;8
+Industries dissatisfaction;2016-02;9
+Industries dissatisfaction;2016-03;7
+Industries dissatisfaction;2016-04;7
+Industries dissatisfaction;2016-05;6
+Industries dissatisfaction;2016-06;5
+Industries dissatisfaction;2016-07;6
+Industries dissatisfaction;2016-08;5
+Industries dissatisfaction;2016-09;5
+Industries dissatisfaction;2016-10;6
+Industries dissatisfaction;2016-11;5
+Industries dissatisfaction;2016-12;6
+Industries dissatisfaction;2017-01;5
+Industries dissatisfaction;2017-02;6
+Industries dissatisfaction;2017-03;6
+Dissatisfaction with migrants;2015-01;6
+Dissatisfaction with migrants;2015-04;5
+Dissatisfaction with migrants;2015-07;5
+Dissatisfaction with migrants;2015-10;4
+Dissatisfaction with migrants;2016-01;5
+Dissatisfaction with migrants;2016-02;4
+Dissatisfaction with migrants;2016-03;6
+Dissatisfaction with migrants;2016-04;5
+Dissatisfaction with migrants;2016-05;5
+Dissatisfaction with migrants;2016-06;4
+Dissatisfaction with migrants;2016-07;4
+Dissatisfaction with migrants;2016-08;5
+Dissatisfaction with migrants;2016-09;5
+Dissatisfaction with migrants;2016-10;5
+Dissatisfaction with migrants;2016-11;4
+Dissatisfaction with migrants;2016-12;4
+Dissatisfaction with migrants;2017-01;4
+Dissatisfaction with migrants;2017-02;4
+Dissatisfaction with migrants;2017-03;3
+Other reasons;2015-01;1
+Other reasons;2015-04;1
+Other reasons;2015-07;2
+Other reasons;2015-10;2
+Other reasons;2016-01;1
+Other reasons;2016-02;1
+Other reasons;2016-03;1
+Other reasons;2016-04;2
+Other reasons;2016-05;2
+Other reasons;2016-06;1
+Other reasons;2016-07;2
+Other reasons;2016-08;2
+Other reasons;2016-09;1
+Other reasons;2016-10;1
+Other reasons;2016-11;1
+Other reasons;2016-12;1
+Other reasons;2017-01;3
+Other reasons;2017-02;2
+Other reasons;2017-03;2
+Complicated to answer;2015-01;1
+Complicated to answer;2015-04;2
+Complicated to answer;2015-07;2
+Complicated to answer;2015-10;2
+Complicated to answer;2016-01;1
+Complicated to answer;2016-02;1
+Complicated to answer;2016-03;1
+Complicated to answer;2016-04;1
+Complicated to answer;2016-05;1
+Complicated to answer;2016-06;1
+Complicated to answer;2016-07;1
+Complicated to answer;2016-08;1
+Complicated to answer;2016-09;1
+Complicated to answer;2016-10;2
+Complicated to answer;2016-11;1
+Complicated to answer;2016-12;1
+Complicated to answer;2017-01;1
+Complicated to answer;2017-02;2
+Complicated to answer;2017-03;1
+High pricing of housing;2015-01;46
+High pricing of housing;2015-04;45
+High pricing of housing;2015-07;47
+High pricing of housing;2015-10;50
+High pricing of housing;2016-01;50
+High pricing of housing;2016-02;52
+High pricing of housing;2016-03;52
+High pricing of housing;2016-04;48
+High pricing of housing;2016-05;48
+High pricing of housing;2016-06;47
+High pricing of housing;2016-07;48
+High pricing of housing;2016-08;49
+High pricing of housing;2016-09;49
+High pricing of housing;2016-10;48
+High pricing of housing;2016-11;54
+High pricing of housing;2016-12;52
+High pricing of housing;2017-01;53
+High pricing of housing;2017-02;49
+High pricing of housing;2017-03;53
+Low level of wages;2015-01;49
+Low level of wages;2015-04;45
+Low level of wages;2015-07;42
+Low level of wages;2015-10;47
+Low level of wages;2016-01;44
+Low level of wages;2016-02;45
+Low level of wages;2016-03;44
+Low level of wages;2016-04;46
+Low level of wages;2016-05;45
+Low level of wages;2016-06;47
+Low level of wages;2016-07;44
+Low level of wages;2016-08;46
+Low level of wages;2016-09;44
+Low level of wages;2016-10;46
+Low level of wages;2016-11;47
+Low level of wages;2016-12;45
+Low level of wages;2017-01;46
+Low level of wages;2017-02;42
+Low level of wages;2017-03;44
+Inflation;2015-01;66
+Inflation;2015-04;57
+Inflation;2015-07;56
+Inflation;2015-10;58
+Inflation;2016-01;57
+Inflation;2016-02;56
+Inflation;2016-03;56
+Inflation;2016-04;55
+Inflation;2016-05;51
+Inflation;2016-06;47
+Inflation;2016-07;50
+Inflation;2016-08;52
+Inflation;2016-09;44
+Inflation;2016-10;50
+Inflation;2016-11;48
+Inflation;2016-12;47
+Inflation;2017-01;45
+Inflation;2017-02;44
+Inflation;2017-03;42
+Low level of pensions, sholarships;2015-01;32
+Low level of pensions, sholarships;2015-04;30
+Low level of pensions, sholarships;2015-07;29
+Low level of pensions, sholarships;2015-10;32
+Low level of pensions, sholarships;2016-01;29
+Low level of pensions, sholarships;2016-02;29
+Low level of pensions, sholarships;2016-03;28
+Low level of pensions, sholarships;2016-04;29
+Low level of pensions, sholarships;2016-05;30
+Low level of pensions, sholarships;2016-06;33
+Low level of pensions, sholarships;2016-07;32
+Low level of pensions, sholarships;2016-08;32
+Low level of pensions, sholarships;2016-09;33
+Low level of pensions, sholarships;2016-10;32
+Low level of pensions, sholarships;2016-11;32
+Low level of pensions, sholarships;2016-12;32
+Low level of pensions, sholarships;2017-01;31
+Low level of pensions, sholarships;2017-02;31
+Low level of pensions, sholarships;2017-03;31
+Healthcare dissatisfaction;2015-01;26
+Healthcare dissatisfaction;2015-04;26
+Healthcare dissatisfaction;2015-07;27
+Healthcare dissatisfaction;2015-10;29
+Healthcare dissatisfaction;2016-01;31
+Healthcare dissatisfaction;2016-02;24
+Healthcare dissatisfaction;2016-03;28
+Healthcare dissatisfaction;2016-04;29
+Healthcare dissatisfaction;2016-05;26
+Healthcare dissatisfaction;2016-06;24
+Healthcare dissatisfaction;2016-07;25
+Healthcare dissatisfaction;2016-08;24
+Healthcare dissatisfaction;2016-09;27
+Healthcare dissatisfaction;2016-10;30
+Healthcare dissatisfaction;2016-11;29
+Healthcare dissatisfaction;2016-12;28
+Healthcare dissatisfaction;2017-01;29
+Healthcare dissatisfaction;2017-02;25
+Healthcare dissatisfaction;2017-03;26
+Roads quality;2015-01;19
+Roads quality;2015-04;24
+Roads quality;2015-07;22
+Roads quality;2015-10;19
+Roads quality;2016-01;21
+Roads quality;2016-02;21
+Roads quality;2016-03;26
+Roads quality;2016-04;31
+Roads quality;2016-05;28
+Roads quality;2016-06;24
+Roads quality;2016-07;21
+Roads quality;2016-08;21
+Roads quality;2016-09;20
+Roads quality;2016-10;20
+Roads quality;2016-11;19
+Roads quality;2016-12;18
+Roads quality;2017-01;20
+Roads quality;2017-02;19
+Roads quality;2017-03;24
+Corruption in government;2015-01;17
+Corruption in government;2015-04;18
+Corruption in government;2015-07;18
+Corruption in government;2015-10;20
+Corruption in government;2016-01;20
+Corruption in government;2016-02;23
+Corruption in government;2016-03;22
+Corruption in government;2016-04;21
+Corruption in government;2016-05;22
+Corruption in government;2016-06;23
+Corruption in government;2016-07;22
+Corruption in government;2016-08;22
+Corruption in government;2016-09;23
+Corruption in government;2016-10;21
+Corruption in government;2016-11;22
+Corruption in government;2016-12;25
+Corruption in government;2017-01;21
+Corruption in government;2017-02;20
+Corruption in government;2017-03;22
+Social security quality;2015-01;16
+Social security quality;2015-04;16
+Social security quality;2015-07;16
+Social security quality;2015-10;17
+Social security quality;2016-01;19
+Social security quality;2016-02;19
+Social security quality;2016-03;17
+Social security quality;2016-04;16
+Social security quality;2016-05;16
+Social security quality;2016-06;19
+Social security quality;2016-07;20
+Social security quality;2016-08;19
+Social security quality;2016-09;16
+Social security quality;2016-10;17
+Social security quality;2016-11;18
+Social security quality;2016-12;20
+Social security quality;2017-01;19
+Social security quality;2017-02;19
+Social security quality;2017-03;21
+Inaccessibility of housing;2015-01;22
+Inaccessibility of housing;2015-04;22
+Inaccessibility of housing;2015-07;22
+Inaccessibility of housing;2015-10;23
+Inaccessibility of housing;2016-01;23
+Inaccessibility of housing;2016-02;19
+Inaccessibility of housing;2016-03;23
+Inaccessibility of housing;2016-04;21
+Inaccessibility of housing;2016-05;22
+Inaccessibility of housing;2016-06;22
+Inaccessibility of housing;2016-07;21
+Inaccessibility of housing;2016-08;23
+Inaccessibility of housing;2016-09;23
+Inaccessibility of housing;2016-10;22
+Inaccessibility of housing;2016-11;25
+Inaccessibility of housing;2016-12;24
+Inaccessibility of housing;2017-01;21
+Inaccessibility of housing;2017-02;21
+Inaccessibility of housing;2017-03;20
+Alcoholism;2015-01;23
+Alcoholism;2015-04;22
+Alcoholism;2015-07;22
+Alcoholism;2015-10;21
+Alcoholism;2016-01;18
+Alcoholism;2016-02;21
+Alcoholism;2016-03;22
+Alcoholism;2016-04;19
+Alcoholism;2016-05;20
+Alcoholism;2016-06;21
+Alcoholism;2016-07;22
+Alcoholism;2016-08;25
+Alcoholism;2016-09;21
+Alcoholism;2016-10;19
+Alcoholism;2016-11;21
+Alcoholism;2016-12;24
+Alcoholism;2017-01;20
+Alcoholism;2017-02;20
+Alcoholism;2017-03;20
