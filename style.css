@@ -1,0 +1,484 @@
+/* title text: font-family: 'Alegreya Sans', sans-serif; */
+/* basic text: font-family: 'Open Sans', sans-serif;
+*/
+
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  overflow: scroll;
+  position: relative;
+}
+
+/* Initial menu */
+.menu {
+  background: #202024 url('https://raw.githubusercontent.com/anagkh/anagkh.github.io/master/img/thread1.png') repeat center center;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('https://raw.githubusercontent.com/anagkh/anagkh.github.io/master/img/environment2.jpg'); 
+  max-height: 10px;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+.menu a:hover {
+  color: #B8CD32;
+  text-decoration: none;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-top: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu:hover {
+  color: #B8CD32;
+  text-decoration: none;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+.header p {
+  font-size: 34px;
+  color: #B8CD32;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+  
+}
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-bottom: 1px solid #ddd;
+}
+
+.slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slide-copy h1 {
+  color: #363636;  
+  
+  font-family: 'Alegreya Sans', sans-serif; 
+  font-weight: 400;
+  
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.slide-copy h2 {
+  color: #b7b7b7;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+
+.slide-copy p {
+  color: #959595;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.slide-img {
+  text-align: right;
+  padding-right: 60px;
+}
+
+/* Slide feature */
+
+.slide-feature {
+  text-align: center;
+  background-image: url('https://raw.githubusercontent.com/anagkh/anagkh.github.io/master/img/slider_2.png');
+  height: 300px;
+}
+
+.slide-feature a {
+  display: block;
+  color: #6fc5e0;
+  
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 14px;
+}
+
+.slide-feature h1 {
+  color: #fff;  
+  
+  font-family: 'Alegreya Sans', sans-serif; 
+  font-weight: 400;
+  
+  font-size: 26px;
+  margin-top: 120px;
+}
+
+.slide-feature h2 {
+  color: #fff;  
+  font-family: 'Alegreya Sans', sans-serif; 
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/*Slider dots*/
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+/*Footer*/
+
+footer {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif; 
+  margin-top: 20px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 22px;
+  height: 22px;
+}
+
+/*News Table */
+.news {
+  background-image: url('https://raw.githubusercontent.com/anagkh/anagkh.github.io/master/img/environment2.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.news. p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.row {
+  margin: 0;
+}
+
+
+.articles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article {
+  color: #222;
+  background: rgba(255,255,255,.9);
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.current .item {
+  background: #B8CD32;
+}
+
+.item {
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  
+}
+
+.item .source {
+  margin-left: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16px;
+}
+
+.item .title {
+  font-weight: bold;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+}
+
+.item .pubdate {
+  margin-right: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16px;
+  text-align: right;  
+}
+
+.item .pubdate:hover {
+  color: #363636;
+  text-decoration: none;
+}
+
+.description {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description h1 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.description  p {
+  font-size: 14px;
+}
+
+
+/* Table */
+table, th {   
+ border: 1px solid black; 
+ font-family: 'Open Sans', sans-serif;
+ font-size: 12px;
+ text-align: left;
+ padding: 5px;
+}
+
+table {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Comment section */
+.comment {
+  font-family: 'Open Sans', sans-serif;
+  color: #404040;
+  background-color: #eee;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.comment-box {
+  width: 620px;
+  margin-top: 20px;
+  margin-left: 370px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.counter {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 370px;
+  width: 100%;
+}
+
+.posts li {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+  width: 620px;
+}
+
+/* Tree graph*/
+.d3_tree {
+  margin-left: 250px;
+}
+
+.tree_int {
+  padding-left: 50px;
+}
+
+.node circle {
+  fill: #999;
+}
+
+.node text {
+  font: 10px 'Open Sans' sans-serif;
+}
+
+.node--internal circle {
+  fill: #555;
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #B8CD32;
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+
+.d3_tree form {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  left: 10px;
+  margin-top: 10px;
+  margin-left: 240px;
+}
+
+label {
+  display: block;
+}
+
+.d3_tree h1 {
+  font: 28px "Alegreya Sans", sans-serif;
+  margin-bottom: 20px;
+  margin-right: 200px;
+}
+
+.d3_tree p {
+  font: 16px "Open Sans", sans-serif;
+  margin-bottom: 40px;
+  margin-right: 200px;
+}
+
+
+/* Stacked graph*/
+text {
+  font: 12px 'Open Sans';
+}
+
+.axis path {
+  display: none;
+}
+
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.group-label {
+  text-anchor: end;
+}
+
+.stacked-mult form {
+  padding-left: 250px;
+  top: 10px;
+}
