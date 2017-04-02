@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'> <!-- Google Font basic text-->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet"> <!-- Google Font title text-->
+    <link href='style.css' rel='stylesheet'>
+
+  </head>
+  <body scroll="yes">
+
+    <div class="menu">
+      
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="https://raw.githubusercontent.com/anagkh/anagkh.github.io/master/img/cross1.png">
+      </div>
+
+      <!-- Menu -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="p_news.html">Last News</a></li>
+        <li><a href="p_table.html">Для проверки</a></li>
+      </ul>
+    </div>
+
+
+      <!-- Main body -->
+      <div class="jumbotron">
+
+        <div class="icon-menu">
+          <i class="fa fa-bars"></i>
+          Menu          
+        </div>
+      </div>
+
+
+
+    <div class="header">
+      <p>Quality of Life Visuals</p>
+    </div>
+
+    <div class="d3_tree">
+      <h1>Tree Framework</h1>
+      <p>System of the main statistical variables which can be applied to life quality analysis. Will be extended later on with methodologies designed by international organizations.</p>
+      <form>
+        <label><input type="radio" name="mode" value="cluster" checked> Dendrogram</label>
+        <label><input type="radio" name="mode" value="tree"> Tree</label>
+      </form>
+      <svg width="1060" height="650"></svg>
+      <script src="//d3js.org/d3.v4.min.js"></script>
+
+      <div class=tree_int>
+      <script>
+
+  
+      var svg = d3.select("svg"),
+          width = +svg.attr("width"),
+          height = +svg.attr("height"),
+          g = svg.append("g").attr("transform", "translate(110,80)");
+
+      var tree = d3.tree()
+          .size([height - 300, width - 560]);
+
+      var cluster = d3.cluster()
+          .size([height - 230, width - 660]);
+
+      var stratify = d3.stratify()
+          .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
+
+      d3.csv("https://raw.githubusercontent.com/anagkh/anagkh.github.io/master/img/tree.csv", function(error, data) {
+        if (error) throw error;
+
+        var root = stratify(data)
+            .sort(function(a, b) { return (a.height - b.height) || a.id.localeCompare(b.id); });
+
+        cluster(root);
+
+        var link = g.selectAll(".link")
+            .data(root.descendants().slice(1))
+          .enter().append("path")
+            .attr("class", "link")
+            .attr("d", diagonal);
+
+        var node = g.selectAll(".node")
+            .data(root.descendants())
+          .enter().append("g")
+            .attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
+            .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+        node.append("circle")
+            .attr("r", 2.5);
+
+        node.append("text")
+            .attr("dy", 3)
+            .attr("x", function(d) { return d.children ? -8 : 8; })
+            .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
+            .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
+
+        d3.selectAll("input")
+            .on("change", changed);
+
+        var timeout = setTimeout(function() {
+          d3.select("input[value=\"tree\"]")
+              .property("checked", true)
+              .dispatch("change");
+        }, 1000);
+
+        function changed() {
+          timeout = clearTimeout(timeout);
+          (this.value === "tree" ? tree : cluster)(root);
+          var t = d3.transition().duration(750);
+          node.transition(t).attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+          link.transition(t).attr("d", diagonal);
+        }
+      });
+
+      function diagonal(d) {
+        return "M" + d.y + "," + d.x
+            + "C" + (d.parent.y + 100) + "," + d.x
+            + " " + (d.parent.y + 100) + "," + d.parent.x
+            + " " + d.parent.y + "," + d.parent.x;
+      }
+
+      </script>
+      </div>
+    </div>
+    
+    
+    
+    <div class="comment">
+      <div class="comment-box">
+        <form>
+          <div class="form-group">
+            <textarea class="form-control status-box" rows="2" placeholder="Post your comment here, please"></textarea>
+          </div>
+        </form>
+        <div class="button-group pull-right">
+          <p class="counter">300</p>
+          <a href="#" class="btn btn-primary">Post</a>
+        </div>
+     </div> 
+    
+      <ul class="posts">
+      </ul>
+    </div>
+
+    <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2017. QoL Visuals</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+          <a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></a>
+        </li>
+        <li class="col-sm-1">
+          <a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></a>
+        </li>
+        <li class="col-sm-1">
+          <a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
